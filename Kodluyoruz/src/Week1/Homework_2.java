@@ -6,7 +6,7 @@ public static void main(String args[])
 {
 		
 /*
-* Not 90-100 => AA
+* Sýnav Notlarýmýz 90-100 => AA
 *85-90 => BA
 *75-85 => BB
 *65-75 => CB
