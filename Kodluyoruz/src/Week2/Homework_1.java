@@ -24,21 +24,21 @@ public class Homework_1 {
          * soru 3: Kaç çeþit malý var.
          */
 		 Scanner scanner = new Scanner(System.in);
-		 System.out.println("------- Kýrtasiye Ürün Stok Takibi ------- ");
-		 System.out.println("Ürün giriþini durdurmak için 'quit' kelimesini kullanabilirsiniz. ");
+		 System.out.println("-------  Ürün Stok Takibi ------- ");
+		 System.out.println("Ürün girisini durdurmak için 'quit' kelimesini kullanabilirsiniz. ");
 		 while(true){
-	            System.out.print("Lütfen ürün adý giriniz : ");
+	            System.out.print("Lütfen ürün adi giriniz : ");
 	            String product = scanner.nextLine();   
 	            if( product.equals("kalem")|| product.equals("silgi")||product.equals("kitap")) {
 	            	 AddProduct(product);
 	            }
 	            else if(product.equals("quit")) {
-	            	 System.out.print("Ürün giriþi durduruldu. " + "\n");
+	            	 System.out.print("Ürün girisi durduruldu. " + "\n");
 	            	//scanner.close();
 	            	break;
 	            }
 	            else {
-	            	 System.out.print("Sistemimizde ürün giriþi sadece kitap, kalem ve silgi içindir."+ "\n");
+	            	 System.out.print("Sistemimizde ürün girisi sadece kitap, kalem ve silgi içindir."+ "\n");
 	            	 break;
 	            }
 	      }
@@ -73,14 +73,14 @@ public class Homework_1 {
 					totalBook++;
 				}
 			}
-		    System.out.println("Güncel Kalem Sayýsý: " +totalPencil+ " tanedir.");
-			System.out.println("Güncel Silgi Sayýsý: " +totalEraser+" tanedir.");
-			System.out.println("Güncel Kitap Sayýsý: " +totalBook+" tanedir.");
+		    System.out.println("Güncel Kalem Sayisi: " +totalPencil+ " tanedir.");
+			System.out.println("Güncel Silgi Sayisi: " +totalEraser+" tanedir.");
+			System.out.println("Güncel Kitap Sayisi: " +totalBook+" tanedir.");
 	}
 	 public static void ProductKind(List<String> productsList ) {  // Product kind method
 	        HashSet<String> ProductKind = new HashSet<>();
 	        ProductKind.addAll(productsList);
-	        System.out.println("Güncel Ürün Çeþidi : " + ProductKind.size());
+	        System.out.println("Güncel Ürün Çesidi : " + ProductKind.size());
 	 }
 		
 	 
