@@ -38,7 +38,7 @@ public class Homework_1 {
 	            	break;
 	            }
 	            else {
-	            	 System.out.print("Sistemimizde ürün girisi sadece kitap, kalem ve silgi içindir."+ "\n");
+	            	 System.out.print("Sistemimizde ürün girisi  sadece kitap, kalem ve silgi içindir."+ "\n");
 	            	 break;
 	            }
 	      }
