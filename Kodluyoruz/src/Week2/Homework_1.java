@@ -45,7 +45,7 @@ public class Homework_1 {
 		
 		 ShowList(productsList);
 		 System.out.println("*********************");
-		 System.out.println("Eklenen Ürün Sayýsý : "+productsList.size());
+		 System.out.println("Eklenen Ürün Sayisi : "+productsList.size());
 		 System.out.println("Güncel Ürün Listesi : "+ productsList);
 		 ProductNumber(productsList);
 		 ProductKind(productsList);
