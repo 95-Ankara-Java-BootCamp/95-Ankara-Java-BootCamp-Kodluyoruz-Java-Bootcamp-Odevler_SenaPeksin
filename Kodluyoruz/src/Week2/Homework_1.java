@@ -17,11 +17,11 @@ public class Homework_1 {
 	public static void main(String[] args) {
 		
 		 /**
-         * Bir kýrtasiye dükkanýna mal geliyor.
-         * Kýrtasiyeci kalem, silgi gibi malzemelerin kaydýný sisteme girecek.
-         * soru 1: Toplam kaç adet mal aldý.
-         * soru 2: Hangi maldan kaç adet aldý.
-         * soru 3: Kaç çeþit malý var.
+         * Bir kirtasiye dükkanina mal geliyor.
+         * Kýrtasiyeci kalem, silgi gibi malzemelerin kaydini sisteme girecek.
+         * soru 1: Toplam kaç adet mal aldi.
+         * soru 2: Hangi maldan kaç adet aldi.
+         * soru 3: Kac çesit mali var.
          */
 		 Scanner scanner = new Scanner(System.in);
 		 System.out.println("-------  Ürün Stok Takibi ------- ");
