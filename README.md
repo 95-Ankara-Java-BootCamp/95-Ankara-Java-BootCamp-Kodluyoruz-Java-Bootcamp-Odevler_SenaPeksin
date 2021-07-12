@@ -1,3 +1,4 @@
-# Java Bootcamp Odevler 
+# Java Bootcamp Assignments
 
+------------
 
