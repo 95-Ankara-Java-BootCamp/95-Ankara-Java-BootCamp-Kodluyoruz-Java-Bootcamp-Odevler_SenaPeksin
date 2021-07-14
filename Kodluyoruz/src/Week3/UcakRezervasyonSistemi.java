@@ -39,7 +39,7 @@ public abstract class UcakRezervasyonSistemi {
 			if (koltuklar[i] == false) {
 				 System.out.println("Business sýnýfýmýzda boþ koltuklarýmýz mevcuttur.");
 				return false;
-			}
+			} 
 		}
 		System.out.println("Business sýnýfýmýzda boþ koltuk kalmamýþtýr");
 		return true;
