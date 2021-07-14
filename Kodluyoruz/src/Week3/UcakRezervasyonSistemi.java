@@ -5,7 +5,7 @@ import java.util.Scanner;
 public abstract class UcakRezervasyonSistemi {
 	Scanner scanner = new Scanner(System.in);
 	private int koltukSayisi;
-	protected boolean koltuklar[];
+	protected boolean  koltuklar[];
 	
 	public UcakRezervasyonSistemi() {
 		  setKoltukSayisi(10);
